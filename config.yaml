@@ -1,0 +1,21 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: My New Hugo Site
+author: Hieupc09
+theme: loveit
+
+menu:
+    main:
+        - name: Trang chủ
+          url: /
+        - name: Giới thiệu
+          url: /gioi-thieu/
+        - name: Sản phẩm
+          url: /san-pham/
+        - name: Liên hệ
+          url: /lien-he/
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
